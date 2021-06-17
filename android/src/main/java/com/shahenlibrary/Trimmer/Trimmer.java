@@ -315,10 +315,10 @@ public class Trimmer {
     cmd.add("-preset");
     cmd.add("ultrafast");
     // NOTE: DO NOT CONVERT AUDIO TO SAVE TIME
-    cmd.add("-c:v");
-    cmd.add("copy");
-    cmd.add("-c:a");
-    cmd.add("copy");
+//     cmd.add("-c:v");
+//     cmd.add("copy");
+//     cmd.add("-c:a");
+//     cmd.add("copy");
     // NOTE: FLAG TO CONVER "AAC" AUDIO CODEC
     // cmd.add("-strict");
     // cmd.add("-2");
